@@ -416,6 +416,7 @@ section {
    .navbar .active{
     display: flex;
    }
+
    .navbar a{
     display: block;
     font-size: 2rem;

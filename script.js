@@ -1,15 +1,16 @@
 let iconoMenu = document.querySelector('#icono_menu');
 let navbar = document.querySelector('.navbar');
 
-iconoMenu.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+iconoMenu.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
+let navbar2 = document.getElementsById('navbar') ;
 
 iconoMenu.onclick = () => {
     iconoMenu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
+    navbar2.style.display = "flex";
 }
-
-
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -27,6 +28,7 @@ window.onscroll = () => {
             });
         };
     });
+
 let header = document.querySelector('header');
 
 header.classList.toggle('sticky',window.scrollY > 100);
