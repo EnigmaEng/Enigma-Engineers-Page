@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
     <title>Enigma</title>
 </head>
 <body>
@@ -30,7 +29,7 @@
         <div class="contenido-home">
             <h3>Hola somos</h3>
             <h1>Enigma Engineers</h1>
-            <h3>Y somos<span class="multiple-text"></span></h3>
+            <h3>Y somos <span class="multiple-text" id="multiple-text"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt delectus saepe sunt vel asperiores debitis tenetur error atque rem illo fugiat aliquid, recusandae odit quas veniam inventore sequi quaerat eum!</p>
             <div class="redes">
                 <a href=""><i class='bx bxl-instagram-alt' ></i></a>
@@ -238,8 +237,16 @@
 </footer>
 
 <script src="https://unpkg.com/scrollreveal"></script>
-<script src="script.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+<script>const typed = new Typed('#multiple-text',{
+    strings: ['Desarrolladores','Amigos','Compañeros'],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay: 1000,
+    loop: true 
+});</script>
 
 </body>
 </html>

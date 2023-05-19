@@ -55,6 +55,8 @@ section{
     columns: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+    text-decoration: none;
+    color: var(--text-color);
 }
 .navbar a:hover,
 .navbar a.active{

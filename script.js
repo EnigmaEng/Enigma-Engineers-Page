@@ -42,10 +42,3 @@ ScrollReveal().reveal('.contenido-home, .heading', { origin: top});
 ScrollReveal().reveal('.services-container, .portfolio-box, .contact form', { origin: bottom});
 ScrollReveal().reveal('.contenido-home h1, .about-content', { origin: left});
 
-const typed = new Typed('.multiple-text',{
-    strings: ["Desarrolladores","Amigos","Compañeros"],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay: 1000,
-    loop: true
-});
