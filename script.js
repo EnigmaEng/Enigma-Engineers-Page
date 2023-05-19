@@ -14,10 +14,8 @@ let navbarH = document.querySelector('.hideNav');
 // }
 
 iconoMenu.onclick = () => {
-    console.log("asdasd")
     iconoMenu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-    console.log(navbar2.classList[1])
     navbar2.classList[1]=="hideNav"?navbar2.classList.remove("hideNav"):navbar2.classList.add("hideNav");
     //hideNav.style.display = "none";
 }
