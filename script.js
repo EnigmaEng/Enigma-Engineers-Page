@@ -1,15 +1,25 @@
 let iconoMenu = document.querySelector('#icono_menu');
 let navbar = document.querySelector('.navbar');
 
-iconoMenu.classList.remove('bx-x');
-    navbar.classList.remove('active');
+// iconoMenu.classList.remove('bx-x');
+// navbar.classList.remove('active');
 
-let navbar2 = document.getElementsById('navbar') ;
+// let iconoX = document.querySelector('#bx-x');
+let navbar2 = document.getElementById('navbar') ;
+let navbarH = document.querySelector('.hideNav');
+
+// iconoX.onclick=()=>{
+//     navbar2.classList.add("hideNav");
+
+// }
 
 iconoMenu.onclick = () => {
+    console.log("asdasd")
     iconoMenu.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-    navbar2.style.display = "flex";
+    console.log(navbar2.classList[1])
+    navbar2.classList[1]=="hideNav"?navbar2.classList.remove("hideNav"):navbar2.classList.add("hideNav");
+    //hideNav.style.display = "none";
 }
 
 let sections = document.querySelectorAll('section');
