@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **Reseña ya**
 
-- 📫 Contactanos **engineersenigma@gmail.com**
+- 📫 Contact us **engineersenigma@gmail.com**
 
 
 
