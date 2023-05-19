@@ -2,7 +2,7 @@
 Sitio web de nuestro proyecto conformado por 
 
 -Maximiliano Dominguez 
--Mathias Laborda 
+-Mathias Labora 
 -Leandro Hernandez
 -Lucio Schiavoni 
 
