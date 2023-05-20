@@ -1,18 +1,10 @@
 let iconoMenu = document.querySelector('#icono_menu');
 let navbar = document.querySelector('.navbar');
 
-// iconoMenu.classList.remove('bx-x');
-// navbar.classList.remove('active');
 
-let navbar2 = document.getElementsById('#navbar') ;
-// let iconoX = document.querySelector('#bx-x');
-//let navbar2 = document.getElementById('navbar') ;
+let navbar2 = document.getElementById('navbar') ;
 let navbarH = document.querySelector('.hideNav');
 
-// iconoX.onclick=()=>{
-//     navbar2.classList.add("hideNav");
-
-// }
 
 iconoMenu.onclick = () => {
     iconoMenu.classList.toggle('bx-x');
