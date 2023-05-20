@@ -4,7 +4,7 @@ let navbar = document.querySelector('.navbar');
 iconoMenu.classList.remove('bx-x');
     navbar.classList.remove('active');
 
-let navbar2 = document.getElementsById('navbar') ;
+let navbar2 = document.getElementsById('#navbar') ;
 
 iconoMenu.onclick = () => {
     iconoMenu.classList.toggle('bx-x');

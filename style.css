@@ -70,7 +70,7 @@ section{
 }
 
 .home-img{
-    width: 35vw;
+    margin-left: 5px;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -92,9 +92,17 @@ section{
     align-items: center;
 }
 
+#logoemp{
+    box-shadow: 0 0 10px rgba(3, 6, 79, 0.604);
+    border-radius: 2%;
+    padding: 10px;
+}
+
 .contenido-home{
     font-size: 3.2rem;
     font-weight: 700;
+    margin-right: 10%; 
+    width: 120%;
 }
 .contenido-home h1{
     font-size: 5.6rem;
@@ -169,7 +177,7 @@ span{
   
   .imgMaxi {
     border: 2px solid var(--main-color);
-    width: 47rem;
+    width: 37rem;
     border-radius: 20%;
     margin-right: 1rem;
   }
@@ -183,8 +191,12 @@ span{
     text-align: center;
     font-size: 4.5rem;
 }
-.about-contenido h2{
-    text-align: left;
+.about{
+    background: var(--second-bg-color);
+}
+.about h2{
+    font-size: 4.5rem;
+    text-align: center;
     line-height: 1.2;
 }
 .about-contenido h3{
@@ -433,9 +445,11 @@ section {
     }
     .contenido-home img{
         width: 70vw;
+        align-items: center;
         margin-top: 4rem;
     }
     .contenido-home{
+        justify-content: center;
         flex-direction: column-reverse;
     }
     .about img{
