@@ -413,6 +413,23 @@ span {
     color: var(--second-bg-color);
 }
 
+.rol-h3{
+    font-size: 3rem;
+}
+
+.frase-parrafo{
+    font-size: 2rem;
+}
+
+.contenedor-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
 /*RESPONSIVE*/
 
 @media (max-width: 1200px) {
@@ -560,6 +577,10 @@ span {
 
     .item h3{
         font-size: 3rem;
+    }
+
+    .frase-parrafo{
+        font-size: 2rem;
     }
 }
 
