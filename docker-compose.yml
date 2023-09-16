@@ -1,0 +1,8 @@
+version: '3'
+services:
+  enigma-website:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9090:80"
