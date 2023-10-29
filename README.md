@@ -8,13 +8,14 @@
 
  
 
-<h1 align="center">Pasos para levantar el contenedor virtual</h1>
+<h1 align="center">Pasos para levantar el contenedor del sitio web</h1>
 <hr>
-<p align="center">Ejecuta el siguiente comando en el directorio del proyecto, ten en cuenta que se levantara con el puerto 9090</p>
+<p align="center">Ejecuta los comandos que dejo detallados aqui abajo, ten en cuenta que se levantara con el puerto 9090</p>
 <p align="center">URL del sitio: http://localhost:9090</p>
 
 ```bash
-docker-compose up -d
+docker pull lucio1798/enigma-engineers-page-enigma-website:latest
+docker run -p 9090:80 lucio1798/enigma-engineers-page-enigma-website:latest
 
 
 
